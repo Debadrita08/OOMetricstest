@@ -1,0 +1,37 @@
+
+"Insufficient funds"str
+-	$"Withdrawal amount must be positive"str
+
+0intself (amount ("r(
+&
+ ( "#get-field# balance:(
+&
+ ( "	#binop >#2>:Bbool"
+ (  * (
+"B.
+,
+ (2"
+ValueError*:B
+ValueError2
+ (2"L*
+(
+ ("
+#binop <=#2<=:Bbool"
+ ( * (
+"B.
+,
+ (B
+"
+ValueError*:	B
+ValueError2
+ (B
+"¸(
+&
+ ("#get-field# balance:%
+#
+ ("	#binop -#*2-:)
+'
+ ("#set-field# balance:(
+&
+ ("#get-field# balance:
+ (*JC:\Users\DebadritaChakraborty\OneDrive\Documents\TestingMetrics\banking.py

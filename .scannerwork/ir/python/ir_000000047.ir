@@ -1,0 +1,16 @@
+self ("·(
+&
+ ($"#get-field# balance:.
+,
+' (9"#get-field# interest_rate:%
+#
+ (9"	#binop *#*2*:(
+&
+ ("#get-field# balance:%
+#
+ (9"	#binop +#*2+:)
+'
+ (9"#set-field# balance:(
+&
+ ("#get-field# balance:
+ (*JC:\Users\DebadritaChakraborty\OneDrive\Documents\TestingMetrics\banking.py
